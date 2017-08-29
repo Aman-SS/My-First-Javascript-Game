@@ -174,6 +174,20 @@ var arrowsActive = false;
 var activeBox_ID = null;
 var prevBox_ID = null;
 
+var counter = 10;
+setInterval(timer, 1000);
+
+function timer(){
+    if(counter == -1){
+       counter = 10;
+    }
+    if(counter == 10)
+        document.getElementById("timer").innerHTML = "00:"+counter;
+    else
+        document.getElementById("timer").innerHTML = "00:0"+counter;
+    counter--;
+}
+
 //Adding event listener to each color box
 for(var i=0; i<9; i++){
     document.getElementById("color-box").children[i].addEventListener("click", play, false);
