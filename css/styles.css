@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: skyblue;
+    font: 15px Arial, Helvetica, sans-serif;
+}
+#container{
+    position: relative;
+    width: 340px;
+    height: 400px;
+    margin: 50px auto;
+}
+#timer{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 80px;
+    font-family: monospace;
+    font-weight: 900;
+    color: red;
+}
+#color-box{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background: white;
+}
+.color{
+    
+}
+#box_1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 10px;
+    left: 10px;
+    background-color: red;
+}
+#box_2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 10px;
+    left: 120px;
+    background-color: green;
+}
+#box_3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 10px;
+    left: 230px;
+    background-color: blue;
+}
+#box_4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 120px;
+    left: 10px;
+    background-color: green;
+}
+#box_5{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 120px;
+    left: 120px;
+    background-color: blue;
+}
+#box_6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 120px;
+    left: 230px;
+    background-color: red;
+}
+#box_7{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 230px;
+    left: 10px;
+    background-color: blue;
+}
+#box_8{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 230px;
+    left: 120px;
+    background-color: red;
+}
+#box_9{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top : 230px;
+    left: 230px;
+    background-color: green;
+}
+.rightArrow{
+    -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+.leftArrow{
+    -webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+.topArrow{
+    -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.bottomArrow{
+    -webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
